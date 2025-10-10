@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "爬山虎采集器文档中心",
-  description: "爬山虎采集器的使用文档",
+  title: "爬山虎采集器",
+  description: "爬山虎采集器的文档",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
