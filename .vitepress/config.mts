@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: './', // 使用相对路径
+  base: '/doc/', // 使用相对路径
   title: "爬山虎采集器",
   description: "爬山虎采集器的文档",
   themeConfig: {
