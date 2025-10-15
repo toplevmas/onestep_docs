@@ -18,8 +18,10 @@ features:
   - title: 简单易学
     details: 通过可视化界面，鼠标点击即可抓取数据
   - title: 快速高效
+    icon:🚀
     details: 内置一套高速浏览器内核，加上HTTP引擎模式，实现快速采集数据
   - title: 智能识别
+    icon: 
     details: 自动识别列表数据、分页类型，通过智能算法，一键提取数据
 ---
 
