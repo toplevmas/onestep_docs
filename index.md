@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 爬山虎采集器是什么？
-      link: /markdown-examples
+      link: /guide/index
     - theme: alt
-      text: 快速开始
-      link: /api-examples
+      text: 创建第一个任务
+      link: /guide/start
 
 features:
   - title: 简单易学 Easy

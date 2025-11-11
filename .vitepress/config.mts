@@ -30,7 +30,7 @@ export default defineConfig({
         base: '/guide/',
         items: [
           { text: '采集需要登陆的网站', link: '/needlogin' },
-          { text: '采集列表数据', link: '/api-examples' },
+          { text: '采集列表数据', link: '/list' },
           { text: '采集列表+详情页', link: '/multi_page' },
           { text: '采集分页', link: '/pages' },
           { text: '采集列表+详情页', link: '/multi_page' },
