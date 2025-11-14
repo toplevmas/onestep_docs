@@ -8,7 +8,6 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'FAQ', link: '/' },
       { text: '采集指南', link: '' }
     ],
  lastUpdated: {
@@ -30,25 +29,26 @@ export default defineConfig({
         base: 'guide/',
         items: [
           { text: '采集需要登陆的网站', link: '/needlogin' },
-          { text: '采集列表数据', link: '/list' },
-          { text: '采集列表+详情页', link: '/multi_page' },
+          { text: '采集多级页面', link: '/multi_page' },
           { text: '采集分页', link: '/pages' },
-          { text: '下载图片和附件', link: '/download' },
+          { text: '下载图片文件', link: '/download' },
+          { text: '自定义数据', link: '/definedata' },
           { text: '数据处理', link: '/dataproc' },
           { text: '数据过滤', link: '/filter' },
-          { text: '使用POST请求', link: '/post' },
+          { text: '取值属性', link: '/attribute' },
+          { text: '页面动作', link: '/action' },
+          { text: 'POST请求', link: '/post' },
           { text: '批量生成网址', link: '/urls' },
-          { text: '在页面上自动点击', link: '/action' },
           { text: 'JSON数据采集', link: '/json' },
-          { text: '请求截取', link: '/multi_page' },
           { text: '计划任务', link: '/sched' },
-          { text: '预置任务', link: '/multi_page' },
+          { text: 'XPath选择器', link: '/xpath' },
 
         ]
       }, {
-        text: '数据导出',
+        text: '数据',
         base: 'guide/',
         items: [
+          { text: '数据管理', link: '/data' },
           { text: '导出到文本', link: '/export_to_file' },
           { text: '导出到数据库', link: '/export_to_db' },
           { text: '导出到API', link: '/export_to_api' },
