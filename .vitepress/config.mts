@@ -6,6 +6,7 @@ export default defineConfig({
   title: "爬山虎采集器",
   description: "爬山虎采集器的文档",
   themeConfig: {
+    logo: { src: '/logo.png', width: 24, height: 24 },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '采集指南', link: '' }
@@ -32,14 +33,13 @@ export default defineConfig({
           { text: '采集多级页面', link: '/multi_page' },
           { text: '采集分页', link: '/pages' },
           { text: '下载图片文件', link: '/download' },
-          { text: '自定义数据', link: '/definedata' },
+          { text: '自定义值', link: '/definedata' },
           { text: '数据处理', link: '/dataproc' },
           { text: '数据过滤', link: '/filter' },
           { text: '取值属性', link: '/attribute' },
           { text: '页面动作', link: '/action' },
           { text: 'POST请求', link: '/post' },
           { text: '批量生成网址', link: '/urls' },
-          { text: 'JSON数据采集', link: '/json' },
           { text: '计划任务', link: '/sched' },
           { text: 'XPath选择器', link: '/xpath' },
 
@@ -56,9 +56,5 @@ export default defineConfig({
         ]
       }
     ],
-
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ]
   }
 })

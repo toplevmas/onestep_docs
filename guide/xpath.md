@@ -6,7 +6,6 @@
 
 具体的 *XPath* 知识，大家可用通过 [http://www.w3school.com.cn/xpath/index.asp](http://www.w3school.com.cn/xpath/index.asp) 来学习。
 
----
 
 在爬山虎采集器中，**列表模式、手动设置分页、字段**中都是通过 XPath 来定位数据的。 都可以通过**手动设置 XPath** 来修改、完善 XPath 表达式
 
