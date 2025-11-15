@@ -6,7 +6,7 @@ export default defineConfig({
   title: "爬山虎采集器",
   description: "爬山虎采集器的文档",
   themeConfig: {
-    logo: { src: '/logo.png', width: 24, height: 24 },
+    logo: { src: 'logo.png', width: 24, height: 24 },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '采集指南', link: '' }

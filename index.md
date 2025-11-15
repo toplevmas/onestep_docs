@@ -14,7 +14,7 @@ hero:
       text: 创建第一个任务
       link: /guide/start
   image:
-      src: /header.png
+      src: header.png
       alt: 
 
 features:
