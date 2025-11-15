@@ -5,8 +5,12 @@ export default defineConfig({
   base: '/doc/', // 使用相对路径
   title: "爬山虎采集器",
   description: "爬山虎采集器的文档",
+  head: [
+    // 或者使用 PNG 格式
+    ['link', { rel: 'icon', href: '/logo.png' }],
+  ],
   themeConfig: {
-    logo: { src: 'logo.png', width: 24, height: 24 },
+    logo: { src: '/logo.png', width: 24, height: 24 },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '采集指南', link: '' }
