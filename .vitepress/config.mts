@@ -46,6 +46,7 @@ export default defineConfig({
           { text: '批量生成网址', link: '/urls' },
           { text: '计划任务', link: '/sched' },
           { text: 'XPath选择器', link: '/xpath' },
+          { text: '请求截取', link: '/xhrcapture' },
 
         ]
       }, {
