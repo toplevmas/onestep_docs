@@ -24,6 +24,24 @@
 
 ![xhrcapture](./img/xhrcapture_3.png)
 
+## URL匹配规则
+
+URL匹配规则是我们需要截取的目标请求URL的特征字符。特征字符需要是唯一的，且没有经常变动的参数。
+
+比如 我们想要截取的请求URL 
+
+```
+https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed?aid=2608&uuid=7553947003245889051&spider=0
+```
+我们可以设置 匹配规则为
+
+```
+recommend_api/v1/article/recommend_all
+
+```
+
+POST 匹配规则是同样的原理
+
 
 ## 分页
 
